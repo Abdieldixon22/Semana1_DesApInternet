@@ -209,11 +209,21 @@ h1,h2,h3 {
     justify-content: space-evenly;
 }
 /** Sobre Mi **/
+.self_img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .sobre_mi {
-    width: min(80rem, 100%);
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+}
+
+.conteiner--sobre_mi {
+    width: min(80rem, 100%);
+    padding: 2rem;
 }
 
 /** Formulario contacto **/
