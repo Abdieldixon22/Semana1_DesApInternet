@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="styles/styles.css" as="style">
+    <link rel="preload" href="styles/normalize.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Diseñador freelancer</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">Juan José C.P. <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="nav-principal conteiner">
+            <a href="index.html" class="link-selected">Inicio</a>
+            <a href="tecnologias.html">Tecnologías</a>
+            <a href="habilidades.html">Habilidades</a>
+            <a href="formacion.html">Formación</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="content-hero">
+            <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
+
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Arequipa, Perú</p>
+            </div>
+
+            <a href="#" class="boton">Contactar</a>
+        </div>
+    </section>
+
+    <main class="conteiner sombra">
+
+        <h2>Sobre Mi</h2>
+        <div class="sobre_mi">
+            <p>Mi nombre es Juan José Condori Pinto, tengo 17 años y actualmente vivo en la ciudad de Arequipa, Perú. 
+                Me gusta disfrutar mi tiempo de soledad y estar tranquilo con quienes me rodean, me gustan las 
+                frutas y la programación, mi hobbie está dirigido a ello, además de los videojuegos.
+            </p>
+            <p>Mi familia es algo numerosa, tal vez eso sea una ventaja, es importante tener siempre algo de apoyo,
+                 mas aún en tiempos difíciles, recuerdo que durante la pandemia no hubo un solo día en el que 
+                 nos quedado solos, siempre había alguien a quien saludar, es por ello que en un futuro espero 
+                 recompensarlo, tener lo suficiente como para apoyar en casa y vivir mi vida sin interrupciones.
+            </p>
+        </div>
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+        
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu email">
+                        </div>
+        
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="alinear-derecha flex">
+                        <input class="w-sm-100 boton" type="submit">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados Juan José C.P. Freelancer</p>
+    </footer>
+</body>
+</html>
